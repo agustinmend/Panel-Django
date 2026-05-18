@@ -1,0 +1,66 @@
+# =========================
+# Python
+# =========================
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Entornos virtuales
+venv/
+.env/
+.venv/
+
+# =========================
+# Django
+# =========================
+db.sqlite3
+*.log
+local_settings.py
+
+# Archivos estáticos y media
+staticfiles/
+media/
+
+# =========================
+# Variables de entorno
+# =========================
+.env
+
+# =========================
+# VSCode
+# =========================
+.vscode/
+
+# =========================
+# PyCharm
+# =========================
+.idea/
+
+# =========================
+# Archivos del sistema
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# Pytest / coverage
+# =========================
+.pytest_cache/
+.coverage
+htmlcov/
+
+# =========================
+# mypy
+# =========================
+.mypy_cache/
+
+# =========================
+# Docker
+# =========================
+*.pid
+
+# =========================
+# Archivos temporales
+# =========================
+*.swp
+*.swo
