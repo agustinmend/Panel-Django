@@ -7,7 +7,7 @@ RUN groupadd -r web && useradd -r -g web web
 
 COPY run_uwsgi.sh run_uwsgi.sh
 COPY requirements.txt requirements.txt
-COPY uwsgi/uwsgi.ini uwsgi.ini
+COPY uwsgi.ini uwsgi.ini
 
 RUN pip install --upgrade pip \
     && pip install -r requirements.txt
