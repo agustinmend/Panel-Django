@@ -1,0 +1,8 @@
+#docker-compose.yml
+services:
+  django:
+    build: ./Django
+    ports:
+      - "8000:8000"
+    env_file:
+      - ./Django/config/.env
